@@ -1,6 +1,11 @@
 # lldb_ignore_exception
 iOS debug helpers
 
+I have to use exception breakpoint (for `NSAssert`s), but our code contains a legacy code with **exception managed programming**. 
+So I want to make a useable case for me.
+My script is iterating back on the stack and get all level of frame until the user defined classname and methode name not found. Finally it skip a complite part of code (under the selected methode) not only one exception.
+
+My solution based on [this GitHub repo](https://gist.github.com/chendo/6759305).
 
 ## How can you use it?
 
@@ -36,5 +41,11 @@ You have to see something similar to this:
 Create an other `Symbolic Breakpoint` with symbol: `objc_exception_throw`.
 
 ![3](Images/3.png)
+
+Set a `Debugger Command` with `ignore {YOUR_CLASS} {YOUR_METHOR}`.
+
+## Ignore an Exception output example 
+You get a log similar to this if an Exception was skipped
+![4](Images/4.png)
 
 
