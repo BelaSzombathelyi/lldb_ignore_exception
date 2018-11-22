@@ -1,5 +1,6 @@
-# lldb_ignore_exception
-iOS debug helpers
+# LLDB Ignore Exception
+
+iOS debug helper
 
 I have to use exception breakpoint (for `NSAssert`s), but our code contains a legacy code with **exception managed programming**. 
 So I want to make a useable case for me.
