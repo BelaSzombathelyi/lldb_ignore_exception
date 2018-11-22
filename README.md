@@ -43,7 +43,7 @@ Create an other `Symbolic Breakpoint` with symbol: `objc_exception_throw`.
 
 ![3](Images/3.png)
 
-Set a `Debugger Command` with `ignore {YOUR_CLASS} {YOUR_METHOR}`.
+Set a `Debugger Command` with `ignore {YOUR_CLASS} {YOUR_METHODE}`.
 
 ## Ignore an Exception output example 
 You get a log similar to this if an Exception was skipped
