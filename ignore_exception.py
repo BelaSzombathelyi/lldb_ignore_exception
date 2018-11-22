@@ -9,7 +9,7 @@ def igonre_objc_exception_throw(debugger, user_input, result, internal_dict):
 	user_input_parts = userInputString.split()
 	for i in range(0, thread.GetNumFrames()):
 		frame = str(thread.GetFrameAtIndex(i))
-		if frame.find(str(user_input_parts[0])) != -1 and frame.find(str(user_input_parts[0])) != -1:
+		if frame.find(str(user_input_parts[0])) != -1 and frame.find(str(user_input_parts[1])) != -1:
 			output = "Skipping 'Exception' by symbol: 'objc_exception_throw' frame: '{0}'".format(user_input)
 			result.PutCString(output)
 			result.flush()
