@@ -62,4 +62,4 @@ You get a log similar to this if an Exception was skipped
 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] ()
 -[UIApplication _runWithMainScene:transitionContext:completion:] ()
 ```
-Set this as debugger command: `igonre +[Manager migrateToCurrentVersionAfterLoggingSetup]` 
+Set this as debugger command: `ignore +[Manager migrateToCurrentVersionAfterLoggingSetup]` 
