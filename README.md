@@ -1,4 +1,4 @@
-# LLDB Ignore Exception
+# LLDB Ignore Exception by Call Stack
 
 iOS debug helper
 
