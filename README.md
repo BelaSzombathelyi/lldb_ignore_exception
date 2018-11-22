@@ -61,7 +61,5 @@ You get a log similar to this if an Exception was skipped
 -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] ()
 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] ()
 -[UIApplication _runWithMainScene:transitionContext:completion:] ()
-
-Set this onShss
 ```
-asd
+Set this as debugger command: `igonre +[Manager migrateToCurrentVersionAfterLoggingSetup]` 
