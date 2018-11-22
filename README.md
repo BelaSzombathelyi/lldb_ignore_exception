@@ -50,3 +50,18 @@ You get a log similar to this if an Exception was skipped
 ![4](Images/4.png)
 
 
+## Other example
+```
++throwed exception here (beatween a trycatch)
++[Settings mappGroupIfNeeded]
++[Manager userDefaultsToAppGroupIfNeeded] (try catch here)
++[Manager migrateTo]
++[Manager migrateToCurrentVersionAfterLoggingSetup]  <-- If you want to skip exceptions under this
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] ()
+-[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] ()
+-[UIApplication _runWithMainScene:transitionContext:completion:] ()
+
+Set this onShss
+```
+asd
