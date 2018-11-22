@@ -13,7 +13,7 @@ Prepare your .libinit file to collect heleper imports:
 touch ~/.lldbinit
 ```
 ```
-echo ~/.lldbinit << {YOUR_LOCAL_PATH} ignore_exception.py
+echo "{YOUR_LOCAL_PATH} ignore_exception.py" >> ~/.lldbinit
 ```
 
 #### Load scrips on app start (skippable but not in my case)
